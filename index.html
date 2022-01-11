@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    <link rel="shortcut icon" href="photo.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AsTech</title>
+</head>
+<body>
+<div class="container">
+    <div class="navbar">
+<img src="photo.jpg" class="logo">
+<nav>
+<ul id="menulist">
+<li><a href="index.html">Home</a></li>
+<li><a href="AsTech About.html">About Me</a></li>
+<li><a href="AsTech Builds.html">Builds</a></li>
+<li><a href="AsTech Projects.html">Projects</a></li>
+</ul>
+</nav>
+<img src="menu.png" class="menu-icon" onclick="togglemenu()">
+    </div>
+    
+    <div class="row">
+
+        <div class="col-1">
+       <h2>Welcome to AsTech Network!</h2>
+       <h3> Hey welcome to my Website</h3>
+       
+        <div class="col-2">
+            
+        </div>
+        <div class="aboutbtn">
+<a href="AsTech About.html"><button type="button">About Me<img src="arrow.png"></button></a>
+
+        </div>
+    </div>
+
+    <div class="subbtn" >
+        <a href="https://www.youtube.com/channel/UCxQOcb7dS9QPl8vJNpqlMnA"><button type="button" class="subbtn" >Subscribe Now! <img src="arrow.png"></button></a>
+    
+    </div>
+    
+<div class="sidelogo">
+    <img src="novaskin-minecraft-wallpaper 1.jpeg" width="50%" >
+    <div class="color-box"></div>
+
+
+    
+
+</div>
+
+
+<script>
+    var menulist = document.getElementById('menulist');
+
+    menulist.style.maxHeight ="0px"
+
+    function togglemenu(){
+        if(menulist.style.maxHeight == "0px")
+        {
+
+menulist.style.maxHeight = "130px"
+        }
+
+        else
+        {
+            menulist.style.maxHeight = "0px"
+        }
+     }
+    
+
+</script>
+
+
+</body>
+</html>
